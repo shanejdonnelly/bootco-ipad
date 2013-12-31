@@ -17,15 +17,23 @@ $(document).ready(function(){
 
     $('.swiper-slide').width(swiper_width * 0.5);
     
-    var mySwiper = $('.swiper-container').swiper({
-        //Your options here:
-        slidesPerView: 2,
-        mode:'horizontal',
-        loop: true,
-        calculateHeight: true
-    
+    //TODO make more DRY
+    var chukkaSwiper = $('#chukka-swipe .swiper-container').swiper({
+        slidesPerView: 2, mode:'horizontal', loop: true, calculateHeight: true 
+    });
+    var nineEyeSwiper = $('#nine-eye-swipe .swiper-container').swiper({
+        slidesPerView: 2, mode:'horizontal', loop: true, calculateHeight: true 
+    });
+    var pullOnSwiper = $('#pull-on-swipe .swiper-container').swiper({
+        slidesPerView: 2, mode:'horizontal', loop: true, calculateHeight: true 
     });
 
-    $('.arrow-left').on('click', mySwiper.swipePrev);
-    $('.arrow-right').on('click', mySwiper.swipeNext);
+
+    $('#nine-eye-swipe .arrow-left').on('click', nineEyeSwiper.swipePrev);
+    $('#nine-eye-swipe .arrow-right').on('click', nineEyeSwiper.swipeNext);
+    $('#chukka-swipe .arrow-left').on('click', chukkaSwiper.swipePrev);
+    $('#chukka-swipe .arrow-right').on('click', chukkaSwiper.swipeNext);
+    $('#pull-on-swipe .arrow-left').on('click', pullOnSwiper.swipePrev);
+    $('#pull-on-swipe .arrow-right').on('click', pullOnSwiper.swipeNext);
+
 });

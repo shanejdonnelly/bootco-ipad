@@ -2,7 +2,7 @@
    Colors
    ==========================================================================
 Pale green: #639189
-Light gray bg: #E7E5D4
+Light gray bg: #e7e5d5
 
 */
 @font-face {
@@ -17,13 +17,13 @@ html, body, #wrapper, #left-nav{ height:100%; }
 #wrapper{ width:100%; max-width:1280px;  }
 h1, h2, h3, h4, h5, h6, p, a{
  font-family:'gothic', sans-serif; 
- font-weight:normal; letter-spacing:2px; 
+ font-weight:normal; letter-spacing:1px; 
  color:#fff; text-transform:uppercase;
 }
 
 .gray-bg{ background-color:#E7E5D4; }
 .museo{ font-family:'museo', serif; }
-.gothic{ font-family:'gothic', sans-serif; letter-spacing: 2px; }
+.gothic{ font-family:'gothic', sans-serif; letter-spacing: 1px; }
 /* ==========================================================================
    Main
    ========================================================================== */
@@ -49,6 +49,11 @@ h1, h2, h3, h4, h5, h6, p, a{
 .blockquote{ background: #639189; }
 #main img{ width:100%; }
 
+.boot-title .text-block{ display:table; background: #e7e5d5; height:100%;} 
+.boot-title .text-block p{ display:table-cell; vertical-align:middle; text-align:center; }
+.boot-title span.museo{ font-size:25px; line-height:20px; color:#639189;}
+.boot-title span.gothic{ font-size: 50px; line-height:45px;  color:#639189; }
+
 /* ==========================================================================
    Swipers
    ========================================================================== */ 
@@ -60,6 +65,11 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 .arrow-right{ right:2%; }
 
+.swiper-text{ 
+    height:100px; width:94%;  padding:3%; border-left:2px solid #689189; 
+    background:#e7e5d5;  
+}
+.swiper-text p{ color:#689189; font-size: 20px;  }
 
 /* ==========================================================================
    Left Nav

@@ -69,6 +69,49 @@ TITLE SLIDE
                     </div>
                 </div>
 
+                <!-- swipe area -->
+                <div class="row" id="nine-eye-swipe">
+                    <div class="span4 swiper-container" style="position:relative;">
+                            <img src="images/small-arrow.png" class="arrow arrow-left" />
+                            <img src="images/small-arrow.png" class="arrow arrow-right" />
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div>
+                            </div><!-- .swiper-slide -->
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div> 
+                            </div><!-- .swiper-slide -->
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div> 
+                            </div><!-- .swiper-slide -->
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div>
+                            </div><!-- .swiper-slide --> 
+                        </div><!-- .swiper-wrapper -->
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="span4">
                          <img src="images/footwear/workbench-hires.jpg" alt="Timberland Boot Company&reg;" />
@@ -99,14 +142,8 @@ CHUKKA
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/suspenders-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
-
                 <!-- swipe area -->
-                <div class="row">
+                <div class="row" id="chukka-swipe">
                     <div class="span4 swiper-container" style="position:relative;">
                             <img src="images/small-arrow.png" class="arrow arrow-left" />
                             <img src="images/small-arrow.png" class="arrow arrow-right" />
@@ -114,21 +151,43 @@ CHUKKA
 
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
-                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div>
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" />
-                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
+                                 <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div> 
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" />
-                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
+                                 <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div> 
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
-                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div>
                             </div><!-- .swiper-slide --> 
                         </div><!-- .swiper-wrapper -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="span4">
+                         <img src="images/footwear/suspenders-hires.jpg" alt="Timberland Boot Company&reg;" />
                     </div>
                 </div>
 
@@ -154,6 +213,49 @@ PULL-ON
                 <div class="row">
                     <div class="span4">
                          <img src="images/footwear/pull-on-section-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    </div>
+                </div>
+
+                <!-- swipe area -->
+                <div class="row" id="pull-on-swipe">
+                    <div class="span4 swiper-container" style="position:relative;">
+                            <img src="images/small-arrow.png" class="arrow arrow-left" />
+                            <img src="images/small-arrow.png" class="arrow arrow-right" />
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div>
+                            </div><!-- .swiper-slide -->
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div> 
+                            </div><!-- .swiper-slide -->
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div> 
+                            </div><!-- .swiper-slide -->
+                            <div class="swiper-slide">
+                                 <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
+                                 <div class="swiper-text">
+                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
+                                    <p>Color: Wheat</p>
+                                </div>
+                            </div><!-- .swiper-slide --> 
+                        </div><!-- .swiper-wrapper -->
                     </div>
                 </div>
 
