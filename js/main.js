@@ -25,4 +25,7 @@ $(document).ready(function(){
         calculateHeight: true
     
     });
+
+    $('.arrow-left').on('click', mySwiper.swipePrev);
+    $('.arrow-right').on('click', mySwiper.swipeNext);
 });

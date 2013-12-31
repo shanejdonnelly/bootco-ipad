@@ -107,8 +107,11 @@ CHUKKA
 
                 <!-- swipe area -->
                 <div class="row">
-                    <div class="span4 swiper-container">
+                    <div class="span4 swiper-container" style="position:relative;">
+                            <img src="images/small-arrow.png" class="arrow arrow-left" />
+                            <img src="images/small-arrow.png" class="arrow arrow-right" />
                         <div class="swiper-wrapper">
+
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
                                  <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>

@@ -314,6 +314,7 @@ sizes, pagination, etc.
 .swiper-container {
 	/* Specify Swiper's Size: */
 
+    position:relative;
 	/*width:200px;
 	height: 100px;*/
 }
