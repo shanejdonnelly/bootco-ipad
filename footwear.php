@@ -111,15 +111,19 @@ CHUKKA
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
+                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" />
+                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" />
+                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
+                                 <p style="display:block; height:50px; background:blue;width:100%;">Hi shane<br/>how are you?</p>
                             </div><!-- .swiper-slide --> 
                         </div><!-- .swiper-wrapper -->
                     </div>

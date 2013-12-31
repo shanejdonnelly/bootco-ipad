@@ -21,7 +21,8 @@ $(document).ready(function(){
         //Your options here:
         slidesPerView: 2,
         mode:'horizontal',
-        loop: true
+        loop: true,
+        calculateHeight: true
     
     });
 });
