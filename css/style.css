@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Colors
+   ==========================================================================
+Pale green: #639189
+Light gray bg: #E7E5D4
+
+*/
+@font-face {
+    font-family:"gothic";src:url("fonts/fontscom/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix");src:url("fonts/fontscom/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix") format("eot"),url("fonts/fontscom/f2ce3af9-0227-443e-ba37-0293d811f89b.woff") format("woff"),url("fonts/fontscom/490fb46a-54c6-486b-9dc8-4b6862162feb.ttf") format("truetype"),url("fonts/fontscom/27811e8b-0bca-46f2-8f73-bf56a19a5785.svg#27811e8b-0bca-46f2-8f73-bf56a19a5785") format("svg");
+}
+
+@font-face {
+    font-family:"museo";src:url("fonts/fontscom/59736019-b384-44ba-b36e-3b03dcdc8e6c.eot?#iefix");src:url("fonts/fontscom/59736019-b384-44ba-b36e-3b03dcdc8e6c.eot?#iefix") format("eot"),url("fonts/fontscom/2ac411c9-defd-4f5a-90b0-7179cafd27f4.woff") format("woff"),url("fonts/fontscom/0c52b397-59d0-4df4-aa7c-06ac915a9f66.ttf") format("truetype"),url("fonts/fontscom/dcaa3c19-252a-407d-945c-4b770dd32417.svg#dcaa3c19-252a-407d-945c-4b770dd32417") format("svg");
+}
+
+html, body, #wrapper, #left-nav{ height:100%; }
+#wrapper{ width:100%; max-width:1280px;  }
+h1, h2, h3, h4, h5, h6, p, a{
+ font-family:'gothic', sans-serif; 
+ font-weight:normal; letter-spacing:2px; 
+ color:#fff; text-transform:uppercase;
+}
+
+.gray-bg{ background-color:#E7E5D4; }
+.museo{ font-family:'museo', serif; }
+.gothic{ font-family:'gothic', sans-serif; letter-spacing: 2px; }
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+#main{}
+#main h1.logo{ 
+    background:url('images/logo-black.png') no-repeat; 
+    background-size: contain; width:77%;
+    margin:50px auto 0;
+}
+#main #logo{ width:77%; margin:50px 11.5% 10px; }
+#main h2{ 
+    text-align:center; 
+    font-size:25px; line-height:35px;
+    
+}
+#main h3{ 
+    font-family:'museo', serif; text-align:center; margin:8px 50px 20px; 
+    font-size:16.5px; line-height:23px; letter-spacing:0; color:#000;
+    text-transform:none;
+}
+#main h4{ font-size:26px; text-align:center; margin:3% 10%; line-height:36px; }
+.blockquote{ background: #639189; }
+#main img{ width:100%; }
+
+.boot-title .text-block{ display:table; background: #639189; height:100%;} 
+.boot-title .text-block p{ display:table-cell; vertical-align:middle; text-align:center; }
+.boot-title span.museo{ font-size:20px; line-height:18px; }
+.boot-title span.gothic{ font-size: 40px; line-height:34px;  }
+/* ==========================================================================
+   Left Nav
+   ========================================================================== */
+
+#left-nav{ display:block; width:25%; position:fixed; top:0; left:0; background-color:#2D3029; }
+#left-nav a, #left-nav p{ font-size:40px; }
+#left-nav ul{ list-style:none; padding:0; display:block; }
+#left-nav li{ list-style:none; border-bottom: 3px solid #fff; }
+#left-nav li a{ 
+    line-height:75px; 
+    padding-left:40px;  
+    color:#fff; text-decoration:none; 
+    display:block;
+}
+#left-nav li a:hover, #left-nav li a:active{ background-color: #444;}
+
+#left-nav p#heading{ 
+    background-color:#639189; 
+    height:160px; line-height:160px; 
+    text-align:center; 
+    position:fixed; bottom:0; left:0; width:25%;
+}
+
+/* ==========================================================================
+   Intro
+   ========================================================================== */
+
+#intro h1{ text-align:right; font-size: 75px; line-height:100px; color:#639189; padding:5%; }
+#intro h2{ text-align:right; color:#E7E5D4; padding:5%; text-transform:none;  }
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+}
+
+
+@media all and (orientation:portrait)
+{
+    #left-nav, #left-nav-placeholder{ display:none; }
+    #main{ width:100%; margin-left:0; }
+}
+
+@media only screen and (min-width: 1140px) {
+}
+
+
