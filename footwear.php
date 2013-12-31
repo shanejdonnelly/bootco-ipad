@@ -77,33 +77,33 @@ TITLE SLIDE
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
+                                 <img src="images/footwear/nine-eye-slider1.jpg" alt="Timberland Boot Company&reg;" />
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: 9-Eye Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div>
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <img src="images/footwear/nine-eye-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: 9-Eye Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div> 
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
+                                 <img src="images/footwear/nine-eye-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: 9-Eye Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div> 
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
+                                 <img src="images/footwear/nine-eye-slider4.jpg" alt="Timberland Boot Company&reg;" />
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: 9-Eye Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div>
@@ -226,7 +226,7 @@ PULL-ON
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div>
@@ -234,7 +234,7 @@ PULL-ON
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div> 
@@ -242,7 +242,7 @@ PULL-ON
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div> 
@@ -250,7 +250,7 @@ PULL-ON
                             <div class="swiper-slide">
                                  <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
                                  <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
+                                    <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
                                     <p>Color: Wheat</p>
                                 </div>
