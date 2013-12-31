@@ -1,3 +1,4 @@
+<?php $active_page = 'home'; ?>
 <?php include('header.php'); ?>
 
         <title>Timberland Boot Company&reg; - Home</title>

@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     color:#fff; text-decoration:none; 
     display:block;
 }
-#left-nav li a:hover, #left-nav li a:active{ background-color: #444;}
+#left-nav li a.active, #left-nav li a:hover, #left-nav li a:active{ background-color: #444;}
 
 #left-nav p#heading{ 
     background-color:#639189; 
