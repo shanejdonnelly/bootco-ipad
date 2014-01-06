@@ -7,13 +7,10 @@
 
     <div id="wrapper">
 
+        <?php include('top_nav.php'); ?>
+
         <div class="row"> 
-            <div class="span1" id="left-nav-placeholder"> 
-                <div class="row"> 
-                    <div class="span4"> &nbsp; </div><!-- #left-nav-placeholder -->
-                </div>
-            </div><!-- #left-nav-placeholder -->
-            <div class="span3" id="main" >
+            <div class="span4" id="main" >
 
 
 <!-- ----------------------------------------
@@ -290,5 +287,4 @@ END SLIDE
         </div><!-- row -->
     </div> <!-- #wrapper -->
 
-<?php include('left_nav.php'); ?>
 <?php include('footer.php'); ?>

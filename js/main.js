@@ -3,7 +3,13 @@ $(document).ready(function(){
     var $container = $('.boot-title');
     $container.imagesLoaded().always( sizeBootTitle);
 
+    /*
+    *
+    * EVENTS
+    *
+    */
     $(window).on('resize', sizeBootTitle);
+    $('#nav-icon').on('click', toggleNav);
 
     function sizeBootTitle(){
         var $titles = $('.boot-title');
@@ -12,11 +18,32 @@ $(document).ready(function(){
             $(this).find('.span13').height(img_height); 
         });
     }
+
+    function toggleNav(){
+        var 
+        $nav = $('#nav-drop-down'), 
+        nav_open = $nav.is(':visible'); 
+
+        nav_open ? closeNav() : openNav();
+
+        function closeNav(){
+            $nav.animate({'top':-50}, 500);//TODO add callback to hide
+        }
+        function openNav(){
+            $nav.show().animate({'top':0}, 500);        
+        }
+    }
     
     var swiper_width = $('.swiper-container').first().width();
 
     $('.swiper-slide').width(swiper_width * 0.5);
     
+    /*
+    *
+    * BOOT SLIDERS
+    *
+    */
+
     //TODO make more DRY
     var chukkaSwiper = $('#chukka-swipe .swiper-container').swiper({
         slidesPerView: 2, mode:'horizontal', loop: true, calculateHeight: true 
@@ -36,4 +63,6 @@ $(document).ready(function(){
     $('#pull-on-swipe .arrow-left').on('click', pullOnSwiper.swipePrev);
     $('#pull-on-swipe .arrow-right').on('click', pullOnSwiper.swipeNext);
 
+    //END SLIDERS
+    
 });
