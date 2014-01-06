@@ -2,7 +2,8 @@
    Colors
    ==========================================================================
 Pale green: #639189
-Light gray bg: #e7e5d5
+dark white bg: #e7e5d5
+Gray text: #3a3f33
 
 */
 @font-face {
@@ -55,6 +56,15 @@ h1, h2, h3, h4, h5, h6, p, a{
 .boot-title span.gothic{ font-size: 50px; line-height:45px;  color:#639189; }
 
 /* ==========================================================================
+   Top Nav
+   ========================================================================== */ 
+
+#logo-area{ position:relative; z-index:99; background:#e7e5d5; overflow:auto; }
+#logo-area h1{ float:left; width:75%; color:#3a3f33; }
+#logo-area div#nav-icon{ float:right; height:40px; width:40px; background:url('images/nav-icon.png') no-repeat;  }
+#nav-drop-down{ position:relative; top:-50px; background:yellow; z-index:98; }
+
+/* ==========================================================================
    Swipers
    ========================================================================== */ 
 
@@ -98,8 +108,13 @@ h1, h2, h3, h4, h5, h6, p, a{
    Intro
    ========================================================================== */
 
-#intro h1{ text-align:right; font-size: 75px; line-height:100px; color:#639189; padding:5%; }
+#intro h1{ text-align:right; font-size: 4.7rem; line-height:6.25rem; color:#639189; padding:5%; }
 #intro h2{ text-align:right; color:#E7E5D4; padding:5%; text-transform:none;  }
+
+/* ==========================================================================
+   
+   ========================================================================== */
+.side_text_box{ position:absolute;right:0; width:22.5%; top:10%; height:75%; background:#639189; text-align:right; font-size:32px; line-height:45px; padding:2.5%; }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -112,6 +127,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 {
     #left-nav, #left-nav-placeholder{ display:none; }
     #main{ width:100%; margin-left:0; }
+    .side_text_box{ font-size:20px; line-height:28px; }
 }
 
 @media only screen and (min-width: 1140px) {

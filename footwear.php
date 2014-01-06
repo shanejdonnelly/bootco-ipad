@@ -41,7 +41,10 @@ TITLE SLIDE
                 <div class="row">
                     <div class="span4" style="position:relative;">
                          <img src="images/footwear/section2-hires.jpg" alt="Timberland Boot Company&reg;" />
-                         <p style="position:absolute;right:0; top:25%; height:50%; background:pink;">Hi Shane</p>
+                         <p class="side_text_box" style="">
+                            In fall 2014, Timberland Boot Company<sup>&reg;</sup> introduces the Cordwain Collection&mdash;acknowledging a time when cordwainers were recognized
+                            as craftsmen of the finest luxury shoes in the world
+                        </p>
                     </div>
                 </div>
 
