@@ -62,10 +62,12 @@ h1, h2, h3, h4, h5, h6, p, a{
 #top-nav{ position:relative; }
 #top-nav > .span4{ overflow:visible; }
 
-#logo-area{ position:relative; z-index:99; background:#e7e5d5; overflow:auto; }
-#logo-area h1{ float:left; width:75%; color:#3a3f33; }
-#logo-area div#nav-icon{ float:right; height:40px; width:40px; background:url('images/nav-icon.png') no-repeat;  }
-#nav-drop-down{ position:absolute; bottom:0; background:yellow; z-index:98; display:none; width:100%; }
+#logo-area{ position:relative; z-index:99; background:#e7e5d5; overflow:auto; border-bottom:1px solid #7f7f7f; }
+#logo-area h1{ float:left; width:75%; color:#3a3f33; line-height:70px; margin-left:20px; }
+#logo-area div#nav-icon{ float:right; height:31px; width:31px; background:url('images/nav-icon.png') no-repeat; cursor:pointer; margin:19px; }
+#nav-drop-down{ position:absolute; bottom:0; background:rgba(231,229,213,0.9); z-index:98; display:none; width:100%; }
+#nav-drop-down a{ display:inline-block; color: #3a3f33; padding:0 25px; line-height:60px; font-size:34px; text-decoration:none; }
+#nav-drop-down a:active{ background:#edebda; }
 
 /* ==========================================================================
    Swipers

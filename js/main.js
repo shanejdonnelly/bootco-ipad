@@ -22,15 +22,16 @@ $(document).ready(function(){
     function toggleNav(){
         var 
         $nav = $('#nav-drop-down'), 
-        nav_open = $nav.is(':visible'); 
+        nav_open = $nav.is(':visible'),
+        nav_height = $nav.height(); 
 
         nav_open ? closeNav() : openNav();
 
         function closeNav(){
-            $nav.animate({'bottom':0}, 500, function(){$(this).hide(); });//TODO add callback to hide
+            $nav.animate({'bottom':0}, 250, function(){$(this).hide(); });//TODO add callback to hide
         }
         function openNav(){
-            $nav.show().animate({'bottom':-23}, 500);        
+            $nav.show().animate({'bottom':nav_height * -1}, 250);        
         }
     }
     
