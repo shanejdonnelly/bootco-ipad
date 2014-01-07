@@ -27,10 +27,10 @@ $(document).ready(function(){
         nav_open ? closeNav() : openNav();
 
         function closeNav(){
-            $nav.animate({'top':-50}, 500);//TODO add callback to hide
+            $nav.animate({'bottom':0}, 500, function(){$(this).hide(); });//TODO add callback to hide
         }
         function openNav(){
-            $nav.show().animate({'top':0}, 500);        
+            $nav.show().animate({'bottom':-23}, 500);        
         }
     }
     
@@ -46,7 +46,7 @@ $(document).ready(function(){
 
     //TODO make more DRY
     var chukkaSwiper = $('#chukka-swipe .swiper-container').swiper({
-        slidesPerView: 2, mode:'horizontal', loop: true, calculateHeight: true 
+        slidesPerView: 2, mode:'horizontal', loop: true, calculateHeight: true, watchActiveIndex: true 
     });
     var nineEyeSwiper = $('#nine-eye-swipe .swiper-container').swiper({
         slidesPerView: 2, mode:'horizontal', loop: true, calculateHeight: true 
@@ -56,12 +56,12 @@ $(document).ready(function(){
     });
 
 
-    $('#nine-eye-swipe .arrow-left').on('click', nineEyeSwiper.swipePrev);
-    $('#nine-eye-swipe .arrow-right').on('click', nineEyeSwiper.swipeNext);
-    $('#chukka-swipe .arrow-left').on('click', chukkaSwiper.swipePrev);
-    $('#chukka-swipe .arrow-right').on('click', chukkaSwiper.swipeNext);
-    $('#pull-on-swipe .arrow-left').on('click', pullOnSwiper.swipePrev);
-    $('#pull-on-swipe .arrow-right').on('click', pullOnSwiper.swipeNext);
+    $('#nine-eye-swipe .arrow-left').on('click',  function(){ nineEyeSwiper.swipeTo(nineEyeSwiper.activeLoopIndex-1); } );
+    $('#nine-eye-swipe .arrow-right').on('click', function(){ nineEyeSwiper.swipeTo(nineEyeSwiper.activeLoopIndex+1); } );
+    $('#chukka-swipe .arrow-left').on('click',  function(){ chukkaSwiper.swipeTo(chukkaSwiper.activeLoopIndex-1); } );
+    $('#chukka-swipe .arrow-right').on('click',  function(){ chukkaSwiper.swipeTo(chukkaSwiper.activeLoopIndex+1); } );
+    $('#pull-on-swipe .arrow-left').on('click',  function(){ pullOnSwiper.swipeTo(pullOnSwiper.activeLoopIndex-1); } );
+    $('#pull-on-swipe .arrow-right').on('click',  function(){ pullOnSwiper.swipeTo(pullOnSwiper.activeLoopIndex+1); } );
 
     //END SLIDERS
     
