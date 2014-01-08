@@ -4,17 +4,20 @@
 Pale green: #639189
 dark white bg: #e7e5d5
 Gray text: #3a3f33
+light gray text: #e7e5d4
 
 */
+@font-face {
+	font-family: "ITC Lubalin Graph Medium";
+	src:url("fonts/a2b62950-ad70-46e2-b2e9-e82ec9db5384.eot?#iefix");
+	src:url("fonts/a2b62950-ad70-46e2-b2e9-e82ec9db5384.eot?#iefix") format("eot"),url("fonts/6e86dc78-6a2a-44b2-a48e-267dd190bc17.woff") format("woff"),url("fonts/61a5852b-4a70-4369-a205-815fa0dccca3.ttf") format("truetype"),url("fonts/5b1a4f6f-183e-4a2b-897c-02b9544ff090.svg#5b1a4f6f-183e-4a2b-897c-02b9544ff090") format("svg");
+}
 @font-face {
     font-family:"gothic";src:url("fonts/fontscom/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix");src:url("fonts/fontscom/08f81dde-07fe-4a13-b96b-de70ab913f0c.eot?#iefix") format("eot"),url("fonts/fontscom/f2ce3af9-0227-443e-ba37-0293d811f89b.woff") format("woff"),url("fonts/fontscom/490fb46a-54c6-486b-9dc8-4b6862162feb.ttf") format("truetype"),url("fonts/fontscom/27811e8b-0bca-46f2-8f73-bf56a19a5785.svg#27811e8b-0bca-46f2-8f73-bf56a19a5785") format("svg");
 }
 
-@font-face {
-    font-family:"museo";src:url("fonts/fontscom/59736019-b384-44ba-b36e-3b03dcdc8e6c.eot?#iefix");src:url("fonts/fontscom/59736019-b384-44ba-b36e-3b03dcdc8e6c.eot?#iefix") format("eot"),url("fonts/fontscom/2ac411c9-defd-4f5a-90b0-7179cafd27f4.woff") format("woff"),url("fonts/fontscom/0c52b397-59d0-4df4-aa7c-06ac915a9f66.ttf") format("truetype"),url("fonts/fontscom/dcaa3c19-252a-407d-945c-4b770dd32417.svg#dcaa3c19-252a-407d-945c-4b770dd32417") format("svg");
-}
-
 html, body, #wrapper, #left-nav{ height:100%; }
+body{ background: #e7e5d4; }
 #wrapper{ width:100%; max-width:1280px;  }
 h1, h2, h3, h4, h5, h6, p, a{
  font-family:'gothic', sans-serif; 
@@ -23,13 +26,16 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 .gray-bg{ background-color:#E7E5D4; }
-.museo{ font-family:'museo', serif; }
+.lubalin{ font-family:'ITC Lubalin Graph Medium', serif; }
 .gothic{ font-family:'gothic', sans-serif; letter-spacing: 1px; }
 /* ==========================================================================
    Main
    ========================================================================== */
 
 #main{}
+
+#tbl-logo{ height:29px; padding:19px; }
+
 #main h1.logo{ 
     background:url('images/logo-black.png') no-repeat; 
     background-size: contain; width:77%;
@@ -42,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     
 }
 #main h3{ 
-    font-family:'museo', serif; text-align:center; margin:8px 50px 20px; 
+    font-family:'ITC Lubalin Graph Medium', serif; text-align:center; margin:8px 50px 20px; 
     font-size:16.5px; line-height:23px; letter-spacing:0; color:#000;
     text-transform:none;
 }
@@ -50,10 +56,15 @@ h1, h2, h3, h4, h5, h6, p, a{
 .blockquote{ background: #639189; }
 #main img{ width:100%; }
 
-.boot-title .text-block{ display:table; background: #e7e5d5; height:100%;} 
-.boot-title .text-block p{ display:table-cell; vertical-align:middle; text-align:center; }
-.boot-title span.museo{ font-size:25px; line-height:20px; color:#639189;}
-.boot-title span.gothic{ font-size: 50px; line-height:45px;  color:#639189; }
+.boot-title{ margin-top:50px; }
+
+.boot-title .text-block{ display:table; height:100%;position:absolute; bottom:35px; left:35px;} 
+.boot-title .text-block p{ display:table-cell; vertical-align:middle; text-align:left; }
+/*.boot-title span.museo{ font-size:25px; line-height:20px; color:#e7e5d4;}
+.boot-title span.gothic{ font-size: 50px; line-height:45px;  color:#e7e5d4; }*/
+.boot-title span.small{ font-size:33px; line-height:30px; color:#e7e5d4;}
+.boot-title span.large{ font-size: 70px; line-height:60px;  color:#e7e5d4; }
+
 
 /* ==========================================================================
    Top Nav
@@ -113,8 +124,8 @@ h1, h2, h3, h4, h5, h6, p, a{
    Intro
    ========================================================================== */
 
-#intro h1{ text-align:right; font-size: 4.7rem; line-height:6.25rem; color:#639189; padding:5%; }
-#intro h2{ text-align:right; color:#E7E5D4; padding:5%; text-transform:none;  }
+#intro h1{ text-align:right; font-size: 95px; line-height:90px; color:#639189; padding:5%; padding-top:0; }
+#intro h2{ text-align:right; color:#3a3f33; padding:5%; padding-left:25%; text-transform:none;  }
 
 /* ==========================================================================
    
@@ -128,11 +139,15 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 
-@media all and (orientation:portrait)
+@media all and (max-width:868px) /*and (orientation:portrait)*/
 {
     #left-nav, #left-nav-placeholder{ display:none; }
     #main{ width:100%; margin-left:0; }
-    .side_text_box{ font-size:20px; line-height:28px; }
+    .side_text_box{ font-size:22px; line-height:36px; }
+    .boot-title .text-block{ bottom:20px; left:20px;} 
+    .boot-title span.small{ font-size:22px; line-height:22px;} 
+    .boot-title span.large{ font-size: 50px; line-height:50px;}
+
 }
 
 @media only screen and (min-width: 1140px) {

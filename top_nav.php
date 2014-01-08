@@ -1,7 +1,7 @@
 <div id="top-nav" class="row">
    <div class="span4">
         <div id="logo-area">
-            <h1>Timberland Boot Company</h1>
+            <img id="tbl-logo" src="images/bootco-logo.png" alt="Timberland Boot Company"/>
             <div id="nav-icon"></div>
         </div><!-- #logo-area -->
         <nav id="nav-drop-down">

@@ -9,7 +9,7 @@
 
         <?php include('top_nav.php'); ?>
 
-        <div class="row"> 
+        <div class="row" style="margin-top:50px;"> 
             <div class="span4" id="main" >
 
 
@@ -18,26 +18,19 @@
 TITLE SLIDE 
 
 ----------------------------------------- -->
-                <!-- logo & menu -->
-                <div class="row">
-                    <div class="span13"><p>MENU</p></div>
-                    <div class="span13"><p>Timberland Boot Company</p>
-                </div>
-
                 <div class="row" id="intro" style="position:relative">
-                    <div class="span2">&nbsp;</div>
                     <div class="span2">
-                        <div class="span2" style="position:absolute; bottom:0; left:0;" >
-                             <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;"/>  
-                        </div> 
+                         <img src="images/footwear/hero-footwear.jpg" alt="Timberland Boot Company&reg; - Boots"/>  
+                    </div>
+                    <div class="span2"> 
                         <h1>Cordwain Boots</h1>
                         <h2>Constructed with the purest Horween<sup>&reg;</sup> leathers, containing the fewest oils and dyes. Leather outsoles trimmed with Vibram<sup>&reg;</sup> rubber for traction. Goodyear Welted Construction provides time-tested durability, as well as ease of future repair. Made in Wynne, Arkansas.</h2>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" style="margin-top:50px;">
                     <div class="span4" style="position:relative;">
-                         <img src="images/footwear/section2-hires.jpg" alt="Timberland Boot Company&reg;" />
+                         <img src="images/footwear/hero-h2t.jpg" alt="Timberland Boot Company&reg;" />
                          <p class="side_text_box" style="">
                             In fall 2014, Timberland Boot Company<sup>&reg;</sup> introduces the Cordwain Collection&mdash;acknowledging a time when cordwainers were recognized
                             as craftsmen of the finest luxury shoes in the world
@@ -52,20 +45,21 @@ TITLE SLIDE
 ----------------------------------------- -->
 
                 <div class="row boot-title">
-                    <div class="span13 text-block">
-                        <p>
-                            <span class="museo">Cordwain</span><br/>
-                            <span class="gothic">9-eye Boot</span>
-                        </p>
-                    </div>
-                    <div class="span23">
-                         <img src="images/footwear/nine-eye-detail-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    <div class="span4" style="position:relative;">
+                        <img src="images/footwear/nine-eye-header.jpg" alt="Nine-Eye Boot" /> 
+                          <div class="text-block"> 
+                                <p>
+                                    <span class="small lubalin">Cordwain</span><br/>
+                                    <span class="large">9-Eye Boot</span>
+                                </p>
+                            </div> 
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/nine-eye-section-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    <div class="span4" >
+                         <img src="images/footwear/nine-eye-h2t.jpg" alt="Timberland Boot Company&reg;" />
+
                     </div>
                 </div>
 
@@ -112,33 +106,26 @@ TITLE SLIDE
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/workbench-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
-
 <!-- ----------------------------------------
 
 CHUKKA
 
 ----------------------------------------- -->
-
                 <div class="row boot-title">
-                    <div class="span13 text-block">
-                        <p>
-                            <span class="museo">Cordwain</span><br/>
-                            <span class="gothic">Chukka</span>
-                        </p>
-                    </div>
-                    <div class="span23">
-                         <img src="images/footwear/chukka-detail-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    <div class="span4" style="position:relative;">
+                        <img src="images/footwear/chukka-header.jpg" alt="Timberland Boot Company - Chukka" /> 
+                          <div class="text-block"> 
+                                <p>
+                                    <span class="small">Cordwain</span><br/>
+                                    <span class="large">Chukka</span>
+                                </p>
+                            </div> 
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="span4">
-                         <img src="images/footwear/chukka-section-hires.jpg" alt="Timberland Boot Company&reg;" />
+                         <img src="images/footwear/chukka-h2t.jpg" alt="Timberland Boot Company&reg;" />
                     </div>
                 </div>
 
@@ -185,12 +172,6 @@ CHUKKA
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/suspenders-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
-
 <!-- ----------------------------------------
 
 PULL-ON
@@ -198,21 +179,21 @@ PULL-ON
 ----------------------------------------- -->
 
                 <div class="row boot-title">
-                    <div class="span13 text-block">
-                        <p>
-                            <span class="museo">Cordwain</span><br/>
-                            <span class="gothic">Pull-On Boot</span>
-                        </p>
-                    </div>
-                    <div class="span23">
-                         <img src="images/footwear/pull-on-detail-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    <div class="span4" style="position:relative;">
+                        <img src="images/footwear/pull-on-header.jpg" alt="Pull-On Boot" /> 
+                          <div class="text-block"> 
+                                <p>
+                                    <span class="small lubalin">Cordwain</span><br/>
+                                    <span class="large">Pull-On Boot</span>
+                                </p>
+                            </div> 
                     </div>
                 </div>
 
-
                 <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/pull-on-section-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    <div class="span4" >
+                         <img src="images/footwear/pull-on-h2t.jpg" alt="Timberland Boot Company&reg; - Pull-On Boot" />
+
                     </div>
                 </div>
 
@@ -256,30 +237,6 @@ PULL-ON
                                 </div>
                             </div><!-- .swiper-slide --> 
                         </div><!-- .swiper-wrapper -->
-                    </div>
-                </div>
-
-<!-- ----------------------------------------
-
-END SLIDE
-
------------------------------------------ -->
-
-                <div class="row">
-                    <div class="span13">
-                         <p style="height:100%;">&nbsp;</p>
-                    </div>
-                    <div class="span13">
-                        <img src="images/footwear/chukka-slider2.jpg"/>
-                        <a href="index.html">timberland.com/bootco</a>
-                    </div>
-                    <div class="span13">
-                         <p style="height:100%;">&nbsp;</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span4">
-                        Timberland legal copy
                     </div>
                 </div>
 
