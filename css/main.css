@@ -146,6 +146,7 @@ textarea {
 [class*="span"] {
   float: left;
   overflow:hidden;
+  position:relative;
 }
 
 .span1{ width:25%; }

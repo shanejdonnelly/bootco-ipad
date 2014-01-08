@@ -1,15 +1,15 @@
 <?php $active_page = 'bags'; ?>
 <?php include('header.php'); ?>
 
-    <title>Timberland Boot Company&reg; - Footwear</title>
+    <title>Timberland Boot Company&reg; - Bags</title>
 </head>
-<body>
+<body class="bags">
 
     <div id="wrapper">
 
         <?php include('top_nav.php'); ?>
 
-        <div class="row"> 
+        <div class="row first-row">
             <div class="span4" id="main" >
 
 
@@ -18,26 +18,19 @@
 TITLE SLIDE 
 
 ----------------------------------------- -->
-                <!-- logo & menu -->
-                <div class="row">
-                    <div class="span13"><p>MENU</p></div>
-                    <div class="span13"><p>Timberland Boot Company</p>
-                </div>
-
                 <div class="row" id="intro" style="position:relative">
-                    <div class="span2">&nbsp;</div>
                     <div class="span2">
-                        <div class="span2" style="position:absolute; bottom:0; left:0;" >
-                             <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;"/>  
-                        </div> 
-                        <h1>Cordwain Boots</h1>
-                        <h2>Constructed with the purest Horween<sup>&reg;</sup> leathers, containing the fewest oils and dyes. Leather outsoles trimmed with Vibram<sup>&reg;</sup> rubber for traction. Goodyear Welted Construction provides time-tested durability, as well as ease of future repair. Made in Wynne, Arkansas.</h2>
+                         <img src="images/bags/hero-bag.jpg" alt="Timberland Boot Company&reg; - Bags"/>  
+                    </div>
+                    <div class="span2"> 
+                        <h1>Cordwain Bags</h1>
+                        <h2>Crafted with premium Horween<sup>&reg;</sup> Dublin Natural leather, with unlined, raw edges. Antiqued brass hardware throughout. Rigid White Oak wash denim from Cone Denim in Greensboro, NC. With durable, cotton webbing, quad stitching, pinking edges and line cut logo. Handmade in Manhattan, NY. 
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" style="margin-top:50px;">
                     <div class="span4" style="position:relative;">
-                         <img src="images/footwear/section2-hires.jpg" alt="Timberland Boot Company&reg;" />
+                         <img src="images/bags/hero-h2t.jpg" alt="Timberland Boot Company&reg;" />
                          <p class="side_text_box" style="">
                             In fall 2014, Timberland Boot Company<sup>&reg;</sup> introduces the Cordwain Collection&mdash;acknowledging a time when cordwainers were recognized
                             as craftsmen of the finest luxury shoes in the world
@@ -47,239 +40,88 @@ TITLE SLIDE
 
 <!-- ----------------------------------------
 
-9-EYE-BOOT 
+Duffel
 
 ----------------------------------------- -->
 
                 <div class="row boot-title">
-                    <div class="span13 text-block">
-                        <p>
-                            <span class="museo">Cordwain</span><br/>
-                            <span class="gothic">9-eye Boot</span>
-                        </p>
-                    </div>
-                    <div class="span23">
-                         <img src="images/footwear/nine-eye-detail-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/nine-eye-section-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
-
-                <!-- swipe area -->
-                <div class="row" id="nine-eye-swipe">
-                    <div class="span4 swiper-container" style="position:relative;">
-                            <img src="images/small-arrow.png" class="arrow arrow-left" />
-                            <img src="images/small-arrow.png" class="arrow arrow-right" />
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/nine-eye-slider1.jpg" alt="Timberland Boot Company&reg;" />
-                                 <div class="swiper-text">
-                                    <p>Style: 9-Eye Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div>
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/nine-eye-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
-                                 <div class="swiper-text">
-                                    <p>Style: 9-Eye Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div> 
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/nine-eye-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
-                                 <div class="swiper-text">
-                                    <p>Style: 9-Eye Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div> 
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/nine-eye-slider4.jpg" alt="Timberland Boot Company&reg;" />
-                                 <div class="swiper-text">
-                                    <p>Style: 9-Eye Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div>
-                            </div><!-- .swiper-slide --> 
-                        </div><!-- .swiper-wrapper -->
+                    <div class="span4" style="position:relative;">
+                        <img src="images/bags/duffel-header.jpg" alt="Timberland Boot Company&reg; - Cordwain Duffel Bag" /> 
+                          <div class="text-block"> 
+                                <p>
+                                    <span class="small lubalin">Cordwain</span><br/>
+                                    <span class="large">Duffel Bag</span>
+                                </p>
+                            </div> 
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/workbench-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    <div class="span4" >
+                         <img src="images/bags/duffel-h2t.jpg" alt="Timberland Boot Company&reg;" />
+
                     </div>
                 </div>
 
 <!-- ----------------------------------------
 
-CHUKKA
+Backpack
 
 ----------------------------------------- -->
-
                 <div class="row boot-title">
-                    <div class="span13 text-block">
-                        <p>
-                            <span class="museo">Cordwain</span><br/>
-                            <span class="gothic">Chukka</span>
-                        </p>
-                    </div>
-                    <div class="span23">
-                         <img src="images/footwear/chukka-detail-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/chukka-section-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
-
-                <!-- swipe area -->
-                <div class="row" id="chukka-swipe">
-                    <div class="span4 swiper-container" style="position:relative;">
-                            <img src="images/small-arrow.png" class="arrow arrow-left" />
-                            <img src="images/small-arrow.png" class="arrow arrow-right" />
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
-                                 <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div>
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
-                                 <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div> 
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
-                                 <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div> 
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
-                                 <div class="swiper-text">
-                                    <p>Style: Chukka / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div>
-                            </div><!-- .swiper-slide --> 
-                        </div><!-- .swiper-wrapper -->
+                    <div class="span4" style="position:relative;">
+                        <img src="images/bags/backpack-header.jpg" alt="Timberland Boot Company&reg; - Cordwain Backpack" /> 
+                          <div class="text-block"> 
+                                <p>
+                                    <span class="small">Cordwain</span><br/>
+                                    <span class="large">Backpack</span>
+                                </p>
+                            </div> 
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="span4">
-                         <img src="images/footwear/suspenders-hires.jpg" alt="Timberland Boot Company&reg;" />
+                         <img src="images/bags/backpack-h2t.jpg" alt="Timberland Boot Company&reg;" />
+
                     </div>
                 </div>
 
 <!-- ----------------------------------------
 
-PULL-ON
+Messenger Bag
 
 ----------------------------------------- -->
 
                 <div class="row boot-title">
-                    <div class="span13 text-block">
-                        <p>
-                            <span class="museo">Cordwain</span><br/>
-                            <span class="gothic">Pull-On Boot</span>
-                        </p>
-                    </div>
-                    <div class="span23">
-                         <img src="images/footwear/pull-on-detail-hires.jpg" alt="Timberland Boot Company&reg;" />
+                    <div class="span4" style="position:relative;">
+                        <img src="images/bags/messenger-header.jpg" alt="Pull-On Boot" /> 
+                          <div class="text-block"> 
+                                <p>
+                                    <span class="small lubalin">Cordwain</span><br/>
+                                    <span class="large">Messenger Bag</span>
+                                </p>
+                            </div> 
                     </div>
                 </div>
-
 
                 <div class="row">
-                    <div class="span4">
-                         <img src="images/footwear/pull-on-section-hires.jpg" alt="Timberland Boot Company&reg;" />
-                    </div>
-                </div>
+                    <div class="span4" >
+                         <img src="images/bags/messenger-h2t.jpg" alt="Timberland Boot Company&reg; - Messenger Bag" />
+                        <div class="bag-info">
+                             <div class="product-detail">
+                                <div class="swatch-wrap">
+                                    <img class="swatch" src="images/bags/messenger-swatch.jpg" alt="Timberland Boot Company&reg; - Messenger Bag" />
+                                    <img class="resize-icon" src="images/resize-icon.png" />
+                                </div><!-- .swatch-wrap -->
+                                <div class="p-wrap">
+                                    <p>Style: Messenger / No: J0879-101</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Dublin Full Grain</p>
+                                    <p>Color: Natural</p> 
+                                </div><!-- .p-wrap -->
 
-                <!-- swipe area -->
-                <div class="row" id="pull-on-swipe">
-                    <div class="span4 swiper-container" style="position:relative;">
-                            <img src="images/small-arrow.png" class="arrow arrow-left" />
-                            <img src="images/small-arrow.png" class="arrow arrow-right" />
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider1.jpg" alt="Timberland Boot Company&reg;" />
-                                 <div class="swiper-text">
-                                    <p>Style: Pull-On Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div>
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider2.jpg" alt="Timberland Boot Company&reg;" /> 
-                                 <div class="swiper-text">
-                                    <p>Style: Pull-On Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div> 
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider3.jpg" alt="Timberland Boot Company&reg;" /> 
-                                 <div class="swiper-text">
-                                    <p>Style: Pull-On Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div> 
-                            </div><!-- .swiper-slide -->
-                            <div class="swiper-slide">
-                                 <img src="images/footwear/chukka-slider4.jpg" alt="Timberland Boot Company&reg;" />
-                                 <div class="swiper-text">
-                                    <p>Style: Pull-On Boot / No: 4118R</p>
-                                    <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
-                                    <p>Color: Wheat</p>
-                                </div>
-                            </div><!-- .swiper-slide --> 
-                        </div><!-- .swiper-wrapper -->
-                    </div>
-                </div>
-
-<!-- ----------------------------------------
-
-END SLIDE
-
------------------------------------------ -->
-
-                <div class="row">
-                    <div class="span13">
-                         <p style="height:100%;">&nbsp;</p>
-                    </div>
-                    <div class="span13">
-                        <img src="images/footwear/chukka-slider2.jpg"/>
-                        <a href="index.html">timberland.com/bootco</a>
-                    </div>
-                    <div class="span13">
-                         <p style="height:100%;">&nbsp;</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span4">
-                        Timberland legal copy
+                            </div><!-- .product-detail --> 
+                        </div><!-- .bag-info -->
                     </div>
                 </div>
 

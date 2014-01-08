@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6, p, a{
    ========================================================================== */
 
 #main{}
+.first-row{ position:relative; top:100px; }
 
 #tbl-logo{ height:29px; padding:19px; }
 
@@ -65,6 +66,19 @@ h1, h2, h3, h4, h5, h6, p, a{
 .boot-title span.small{ font-size:33px; line-height:30px; color:#e7e5d4;}
 .boot-title span.large{ font-size: 70px; line-height:60px;  color:#e7e5d4; }
 
+/* ==========================================================================
+   Bags & product detail
+   ========================================================================== */ 
+
+.swatch-wrap{ float:right; width:20%; margin:5%; cursor:pointer; }
+.bags #main img.swatch{ float:right;}
+.bags #main img.resize-icon{ clear:right; float:right; display:block; width:25%; margin-top:7%; }
+.bags .product-detail{ position:absolute; left:50%; top:33.3%; width:50%; }
+.product-detail .p-wrap{ float:right; width:70%; margin-top:5%; }
+.product-detail p{ color:#689189; font-size: 20px;  }
+
+.bags .product-detail p{ text-align:right; }
+
 
 /* ==========================================================================
    Top Nav
@@ -95,7 +109,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     height:100px; width:94%;  padding:3%; border-left:2px solid #689189; 
     background:#e7e5d5;  
 }
-.swiper-text p{ color:#689189; font-size: 20px;  }
+
 
 /* ==========================================================================
    Left Nav
