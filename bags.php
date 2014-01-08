@@ -59,7 +59,34 @@ Duffel
                 <div class="row">
                     <div class="span4" >
                          <img src="images/bags/duffel-h2t.jpg" alt="Timberland Boot Company&reg;" />
+                        <div class="bag-info">
+                             <div class="product-detail">
+                                <div class="swatch-wrap">
+                                    <img class="swatch" src="images/bags/duffel-swatch-natural.jpg" alt="Timberland Boot Company&reg; - Duffle Bag" />
+                                    <img class="resize-icon" src="images/resize-icon.png" />
+                                </div><!-- .swatch-wrap -->
+                                <div class="p-wrap">
+                                    <p>Style: Duffle Bag / No: J0935-288</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Dublin Full Grain</p>
+                                    <p>Color: Natural</p> 
+                                </div><!-- .p-wrap -->
 
+                            </div><!-- .product-detail --> 
+
+
+                             <div class="product-detail" style="clear:both;">
+                                <div class="swatch-wrap">
+                                    <img class="swatch" src="images/bags/duffel-swatch-denim.jpg" alt="Timberland Boot Company&reg; - Duffle Bag" />
+                                    <img class="resize-icon" src="images/resize-icon.png" />
+                                </div><!-- .swatch-wrap -->
+                                <div class="p-wrap">
+                                    <p>Style: Duffle Bag / No: J0880-101</p>
+                                    <p>Material: Cone Rigid Wash Denim with<br/>Horween<sup>&reg;</sup> Dublin Full Grain</p>
+                                    <p>Color: Dark Denim/Natural</p> 
+                                </div><!-- .p-wrap -->
+
+                            </div><!-- .product-detail --> 
+                        </div><!-- .bag-info -->
                     </div>
                 </div>
 
@@ -83,7 +110,20 @@ Backpack
                 <div class="row">
                     <div class="span4">
                          <img src="images/bags/backpack-h2t.jpg" alt="Timberland Boot Company&reg;" />
+                        <div class="bag-info">
+                             <div class="product-detail">
+                                <div class="swatch-wrap">
+                                    <img class="swatch" src="images/bags/backpack-swatch.jpg" alt="Timberland Boot Company&reg; - Backpack" />
+                                    <img class="resize-icon" src="images/resize-icon.png" />
+                                </div><!-- .swatch-wrap -->
+                                <div class="p-wrap">
+                                    <p>Style: Backpack / No: J0879-101</p>
+                                    <p>Material: Horween<sup>&reg;</sup> Dublin Full Grain</p>
+                                    <p>Color: Natural</p> 
+                                </div><!-- .p-wrap -->
 
+                            </div><!-- .product-detail --> 
+                        </div><!-- .bag-info -->
                     </div>
                 </div>
 

@@ -70,11 +70,16 @@ h1, h2, h3, h4, h5, h6, p, a{
    Bags & product detail
    ========================================================================== */ 
 
-.swatch-wrap{ float:right; width:20%; margin:5%; cursor:pointer; }
+.bags .bag-info{ position:absolute; left:50%; top:33.3%; width:50%; }
+
+.swatch-wrap{ float:right; width:20%; margin:2%; cursor:pointer; }
+.product-detail .p-wrap{ float:right; width:70%; margin-top:1%; }
+.product-detail:first-child .swatch-wrap{ margin-top:5%; }
+.product-detail:first-child .p-wrap{ margin-top:4%; }
+
 .bags #main img.swatch{ float:right;}
 .bags #main img.resize-icon{ clear:right; float:right; display:block; width:25%; margin-top:7%; }
-.bags .product-detail{ position:absolute; left:50%; top:33.3%; width:50%; }
-.product-detail .p-wrap{ float:right; width:70%; margin-top:5%; }
+
 .product-detail p{ color:#689189; font-size: 20px;  }
 
 .bags .product-detail p{ text-align:right; }
