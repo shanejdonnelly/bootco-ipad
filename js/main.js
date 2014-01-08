@@ -19,6 +19,11 @@ $(document).ready(function(){
         });
     }
 
+    /*
+    *
+    * Drop down nav
+    *
+    */
     function toggleNav(){
         var 
         $nav = $('#nav-drop-down'), 
@@ -35,15 +40,16 @@ $(document).ready(function(){
         }
     }
     
-    var swiper_width = $('.swiper-container').first().width();
-
-    $('.swiper-slide').width(swiper_width * 0.5);
-    
     /*
     *
     * BOOT SLIDERS
     *
     */
+    
+    //size the swiper area for two slides - making sure it is responsive to window size
+    var swiper_width = $('.swiper-container').first().width();
+    $('.swiper-slide').width(swiper_width * 0.5);
+
 
     //TODO make more DRY
     var chukkaSwiper = $('#chukka-swipe .swiper-container').swiper({

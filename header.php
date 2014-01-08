@@ -7,6 +7,8 @@
         <meta name="description" content="Timberland Boot Company">
         <meta name="viewport" content="width=device-width">
 
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">

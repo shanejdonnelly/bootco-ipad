@@ -1,4 +1,4 @@
-<?php $active_page = 'footwear'; ?>
+<?php $active_page = 'bags'; ?>
 <?php include('header.php'); ?>
 
     <title>Timberland Boot Company&reg; - Footwear</title>
