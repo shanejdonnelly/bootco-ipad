@@ -20,7 +20,7 @@
 
 
                     <video class="span4"  poster="" controls loop preload="auto">
-                        <source src="videos/home-video-768.m4v" type="video/mp4" /> 
+                        <source src="videos/home-video-1024.m4v" type="video/mp4" /> 
                     </video> 
 
             </div><!-- .row -->

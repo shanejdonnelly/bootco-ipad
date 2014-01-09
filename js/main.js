@@ -5,18 +5,23 @@ $(document).ready(function(){
                                                                                                                                      
     //make height of boot title text equal to image height
     var $container = $('.boot-title');
-    $container.imagesLoaded().always( sizeBootTitle);
+    $container.imagesLoaded().always( init);
 
     /*
     *
     * EVENTS
     *
     */
-    $(window).on('resize', sizeBootTitle);
+    $(window).on('resize', init);
     $('body').on('click', function(){ 
        if($('nav-drop-down').is(':visible')){ toggleNav(); } 
     });
     $('#nav-icon').on('click', toggleNav);
+
+    function init(){
+        sizeBootTitle();
+        sizeVideo();
+    }
 
     function sizeBootTitle(){
         var $titles = $('.boot-title');
@@ -25,6 +30,16 @@ $(document).ready(function(){
             $(this).find('.span13').height(img_height); 
         });
     }
+
+    function sizeVideo(){
+        var 
+        $vid = $('.home video'),
+        win_width = $(window).width(), 
+        ratio = 462/1024;
+
+        $vid.height(win_width * ratio);
+console.log(win_width*ratio);
+     }
 
     /*
     *
