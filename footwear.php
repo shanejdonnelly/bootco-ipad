@@ -205,7 +205,7 @@ PULL-ON
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide">
-                                 <img src="images/footwear/pull-on-rust-slider.jpg" alt="Timberland Boot Company&reg; - Pull-On Boot" />
+                                 <img src="images/footwear/pull-on-rust-slider.png" alt="Timberland Boot Company&reg; - Pull-On Boot" />
                                  <div class="swiper-text product-detail">
                                     <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
@@ -213,7 +213,7 @@ PULL-ON
                                 </div>
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/pull-on-wheat-slider.jpg" alt="Timberland Boot Company&reg; - Pull-On Boot" /> 
+                                 <img src="images/footwear/pull-on-wheat-slider.png" alt="Timberland Boot Company&reg; - Pull-On Boot" /> 
                                  <div class="swiper-text product-detail">
                                     <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
@@ -221,7 +221,7 @@ PULL-ON
                                 </div> 
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/pull-on-darkbrown-slider.jpg" alt="Timberland Boot Company&reg; - Pull-On Boot" /> 
+                                 <img src="images/footwear/pull-on-darkbrown-slider.png" alt="Timberland Boot Company&reg; - Pull-On Boot" /> 
                                  <div class="swiper-text product-detail">
                                     <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
@@ -229,7 +229,7 @@ PULL-ON
                                 </div> 
                             </div><!-- .swiper-slide -->
                             <div class="swiper-slide">
-                                 <img src="images/footwear/pull-on-brown-slider.jpg" alt="Timberland Boot Company&reg; - Pull-On Boot" />
+                                 <img src="images/footwear/pull-on-brown-slider.png" alt="Timberland Boot Company&reg; - Pull-On Boot" />
                                  <div class="swiper-text product-detail">
                                     <p>Style: Pull-On Boot / No: 4118R</p>
                                     <p>Material: Horween<sup>&reg;</sup> Longbranch Nubuck</p>
