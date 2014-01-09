@@ -14,7 +14,7 @@ $(document).ready(function(){
     */
     $(window).on('resize', init);
     $('#nav-icon').on('click', toggleNav);
-    $('.swatch-wrap').on('click', openOverlay);
+    $('.swatch-wrap').on('click', function(e){ openOverlay($(this)); });
     $('.overlay .close').on('click', closeOverlay);
 
     function init(){
@@ -29,10 +29,14 @@ $(document).ready(function(){
         });
     }
 
-    function openOverlay(e){
-        var $this = $(e.target);
-        
-        $('.overlay').fadeIn(500); 
+    function openOverlay($this){
+        var 
+        $overlay = $('.overlay'), 
+        $img = $this.find('img.swatch'),
+        src = $img.data('image');
+
+        $overlay.find('img').attr('src', src);
+        $overlay.fadeIn(500); 
     }
 
     function closeOverlay(){

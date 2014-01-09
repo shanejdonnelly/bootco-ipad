@@ -99,6 +99,7 @@ video{ margin:5% 0; }
     cursor:pointer; text-align:center; 
     line-height:32px;
 }
+.overlay img{ max-width:80%;margin-left:10%; margin-top:5%; }
 
 
 /* ==========================================================================

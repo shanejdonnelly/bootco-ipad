@@ -62,7 +62,7 @@ Duffel
                         <div class="bag-info">
                              <div class="product-detail">
                                 <div class="swatch-wrap">
-                                    <img class="swatch" src="images/bags/duffel-swatch-natural.jpg" alt="Timberland Boot Company&reg; - Duffle Bag" />
+                                    <img class="swatch" src="images/bags/duffel-swatch-natural.jpg"  data-image="images/bags/duffel-header.jpg" alt="Timberland Boot Company&reg; - Duffle Bag" />
                                     <img class="resize-icon" src="images/resize-icon.png" />
                                 </div><!-- .swatch-wrap -->
                                 <div class="p-wrap">
@@ -76,7 +76,7 @@ Duffel
 
                              <div class="product-detail" style="clear:both;">
                                 <div class="swatch-wrap">
-                                    <img class="swatch" src="images/bags/duffel-swatch-denim.jpg" alt="Timberland Boot Company&reg; - Duffle Bag" />
+                                    <img class="swatch" src="images/bags/duffel-swatch-denim.jpg"  data-image="images/bags/duffel-header.jpg" alt="Timberland Boot Company&reg; - Duffle Bag" />
                                     <img class="resize-icon" src="images/resize-icon.png" />
                                 </div><!-- .swatch-wrap -->
                                 <div class="p-wrap">
@@ -113,7 +113,7 @@ Backpack
                         <div class="bag-info">
                              <div class="product-detail">
                                 <div class="swatch-wrap">
-                                    <img class="swatch" src="images/bags/backpack-swatch.jpg" alt="Timberland Boot Company&reg; - Backpack" />
+                                    <img class="swatch" src="images/bags/backpack-swatch.jpg"  data-image="images/bags/backpack-header.jpg" alt="Timberland Boot Company&reg; - Backpack" />
                                     <img class="resize-icon" src="images/resize-icon.png" />
                                 </div><!-- .swatch-wrap -->
                                 <div class="p-wrap">
@@ -151,7 +151,7 @@ Messenger Bag
                         <div class="bag-info">
                              <div class="product-detail">
                                 <div class="swatch-wrap">
-                                    <img class="swatch" src="images/bags/messenger-swatch.jpg" alt="Timberland Boot Company&reg; - Messenger Bag" />
+                                    <img class="swatch" src="images/bags/messenger-swatch.jpg" data-image="images/bags/messenger-header.jpg" alt="Timberland Boot Company&reg; - Messenger Bag" />
                                     <img class="resize-icon" src="images/resize-icon.png" />
                                 </div><!-- .swatch-wrap -->
                                 <div class="p-wrap">
@@ -168,5 +168,5 @@ Messenger Bag
             </div><!-- #main -->
         </div><!-- row -->
     </div> <!-- #wrapper -->
-<div class="overlay"><img style="width:80%;margin-left:10%; margin-top:5%;" src="images/bags/messenger-header.jpg"/><span class="close">X</span></div>
+<div class="overlay"><img src="images/bags/messenger-header.jpg"/><span class="close">X</span></div>
 <?php include('footer.php'); ?>
