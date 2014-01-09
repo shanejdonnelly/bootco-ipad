@@ -13,6 +13,9 @@ $(document).ready(function(){
     *
     */
     $(window).on('resize', sizeBootTitle);
+    $('body').on('click', function(){ 
+       if($('nav-drop-down').is(':visible')){ toggleNav(); } 
+    });
     $('#nav-icon').on('click', toggleNav);
 
     function sizeBootTitle(){

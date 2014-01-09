@@ -9,20 +9,20 @@
 
         <?php include('top_nav.php'); ?>
 
-            <div class="row"> 
+            <div class="row first-row"> 
 
                 <div class="span4" >
-                       <h1 style="background:orange" >image here</h1>
+                    <img src="images/united-logo.png" alt="United By Craft" id="united-logo" /> 
                 </div>
             </div><!-- .row -->
 
             <div class="row"> 
 
-                <div class="span4" > 
-                    <video  poster="" controls loop preload="auto">
+
+                    <video class="span4"  poster="" controls loop preload="auto">
                         <source src="videos/home-video-768.m4v" type="video/mp4" /> 
                     </video> 
-                </div>
+
             </div><!-- .row -->
         </div> <!-- #wrapper -->
 

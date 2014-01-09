@@ -33,9 +33,9 @@ h1, h2, h3, h4, h5, h6, p, a{
    ========================================================================== */
 
 #main{}
-.first-row{ position:relative; top:100px; }
+.first-row{ position:relative; padding-top:100px; }
 
-#tbl-logo{ height:29px; padding:19px; }
+
 
 #main h1.logo{ 
     background:url('images/logo-black.png') no-repeat; 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 .blockquote{ background: #639189; }
 #main img{ width:100%; }
 
-.boot-title{ margin-top:50px; }
+
 
 .boot-title .text-block{ display:table; height:100%;position:absolute; bottom:35px; left:35px;} 
 .boot-title .text-block p{ display:table-cell; vertical-align:middle; text-align:left; }
@@ -66,13 +66,15 @@ h1, h2, h3, h4, h5, h6, p, a{
 .boot-title span.small{ font-size:33px; line-height:30px; color:#e7e5d4;}
 .boot-title span.large{ font-size: 70px; line-height:60px;  color:#e7e5d4; }
 
+#united-logo{ position:relative; margin:5% auto; display:block; }
+video{ margin:5% 0; }
 /* ==========================================================================
    Bags & product detail
    ========================================================================== */ 
 
 .bags .bag-info{ position:absolute; left:50%; top:33.3%; width:50%; }
 
-.swatch-wrap{ float:right; width:20%; margin:2%; cursor:pointer; }
+.swatch-wrap{ float:right; width:20%; margin:4%; margin-top:2%; cursor:pointer; }
 .product-detail .p-wrap{ float:right; width:70%; margin-top:1%; }
 .product-detail:first-child .swatch-wrap{ margin-top:5%; }
 .product-detail:first-child .p-wrap{ margin-top:4%; }
@@ -92,11 +94,12 @@ h1, h2, h3, h4, h5, h6, p, a{
 #top-nav{ position:relative; }
 #top-nav > .span4{ overflow:visible; }
 
+#tbl-logo{ padding:19px; width: 50%; }
 #logo-area{ position:relative; z-index:99; background:#e7e5d5; overflow:auto; border-bottom:1px solid #7f7f7f; }
 #logo-area h1{ float:left; width:75%; color:#3a3f33; line-height:70px; margin-left:20px; }
 #logo-area div#nav-icon{ float:right; height:31px; width:31px; background:url('images/nav-icon.png') no-repeat; cursor:pointer; margin:19px; }
 #nav-drop-down{ position:absolute; bottom:0; background:rgba(231,229,213,0.9); z-index:98; display:none; width:100%; }
-#nav-drop-down a{ display:inline-block; color: #3a3f33; padding:0 25px; line-height:60px; font-size:34px; text-decoration:none; }
+#nav-drop-down a{ display:inline-block; color: #3a3f33; padding:0 5%; line-height:60px; font-size:34px; text-decoration:none; }
 #nav-drop-down a:active{ background:#edebda; }
 
 /* ==========================================================================

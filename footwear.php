@@ -28,7 +28,7 @@ TITLE SLIDE
                     </div>
                 </div>
 
-                <div class="row" style="margin-top:50px;">
+                <div class="row" style="margin-top:25px;">
                     <div class="span4" style="position:relative;">
                          <img src="images/footwear/hero-h2t.jpg" alt="Timberland Boot Company&reg;" />
                          <p class="side_text_box" style="">
@@ -44,7 +44,7 @@ TITLE SLIDE
 
 ----------------------------------------- -->
 
-                <div class="row boot-title">
+                <div class="row boot-title" style="margin-top:25px;">
                     <div class="span4" style="position:relative;">
                         <img src="images/footwear/nine-eye-header.jpg" alt="Nine-Eye Boot" /> 
                           <div class="text-block"> 
@@ -116,7 +116,7 @@ CHUKKA
                         <img src="images/footwear/chukka-header.jpg" alt="Timberland Boot Company - Chukka" /> 
                           <div class="text-block"> 
                                 <p>
-                                    <span class="small">Cordwain</span><br/>
+                                    <span class="small lubalin">Cordwain</span><br/>
                                     <span class="large">Chukka</span>
                                 </p>
                             </div> 

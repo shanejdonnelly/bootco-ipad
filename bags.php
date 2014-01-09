@@ -28,7 +28,7 @@ TITLE SLIDE
                     </div>
                 </div>
 
-                <div class="row" style="margin-top:50px;">
+                <div class="row" style="margin-top:25px;">
                     <div class="span4" style="position:relative;">
                          <img src="images/bags/hero-h2t.jpg" alt="Timberland Boot Company&reg;" />
                          <p class="side_text_box" style="">
@@ -44,7 +44,7 @@ Duffel
 
 ----------------------------------------- -->
 
-                <div class="row boot-title">
+                <div class="row boot-title" style="margin-top:25px;">
                     <div class="span4" style="position:relative;">
                         <img src="images/bags/duffel-header.jpg" alt="Timberland Boot Company&reg; - Cordwain Duffel Bag" /> 
                           <div class="text-block"> 
@@ -95,7 +95,7 @@ Duffel
 Backpack
 
 ----------------------------------------- -->
-                <div class="row boot-title">
+                <div class="row boot-title" style="margin-top:25px;">
                     <div class="span4" style="position:relative;">
                         <img src="images/bags/backpack-header.jpg" alt="Timberland Boot Company&reg; - Cordwain Backpack" /> 
                           <div class="text-block"> 
@@ -133,7 +133,7 @@ Messenger Bag
 
 ----------------------------------------- -->
 
-                <div class="row boot-title">
+                <div class="row boot-title" style="margin-top:25px;">
                     <div class="span4" style="position:relative;">
                         <img src="images/bags/messenger-header.jpg" alt="Pull-On Boot" /> 
                           <div class="text-block"> 
