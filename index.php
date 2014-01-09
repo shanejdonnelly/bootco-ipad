@@ -19,7 +19,7 @@
             <div class="row"> 
 
 
-                    <video class="span4"  poster="" controls loop preload="auto">
+                    <video class="span4"  poster="" width="1024" height="462" controls loop preload="auto">
                         <source src="videos/home-video-1024.m4v" type="video/mp4" /> 
                     </video> 
 

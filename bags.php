@@ -168,5 +168,5 @@ Messenger Bag
             </div><!-- #main -->
         </div><!-- row -->
     </div> <!-- #wrapper -->
-
+<div class="overlay"><img style="width:80%;margin-left:10%; margin-top:5%;" src="images/bags/messenger-header.jpg"/><span class="close">X</span></div>
 <?php include('footer.php'); ?>
